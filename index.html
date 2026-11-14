@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resume</title>
+        <link rel="icon" type="image/x-icon" href="whooper.ico">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            h1 {text-align: center;}
+        </style>
+
+        <link rel="stylesheet" href="styles.css">
+        <!-- <link rel="stylesheet" href="styles_dark.css"> -->
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <hr>
+        <header style="font-size: 400%;">My resume</header>
+        <button id="themeToggle" type="button">Dark theme</button>
+        <hr>
+        <main>
+            <section>
+                <h2>Загальна інформація</h2>
+                <ul class = "list" id="about_me">
+                    <li>ПІБ - Маслов Дмитро Сергійович</li>
+                    <li>Вік - 19 років</li>
+                    <li>Дата народження - 14.06.2007</li>
+                    <li>Стать - чоловіча</li>
+                    <li>Національність - українець</li>
+                    <li>Місто проживання - Львів, Львівська обл.</li>
+            </section>
+
+            <section>
+                <h2>Освіта</h2>
+                <hr>
+                <p type="fake_info">
+                    Закінчив ЗОШ №7 (м.Чорноморськ) з відзнакою. <br>
+                    Закінчив курси в онлайн-школі Hillel: Python для школярів рівень 1, Python для школярів рівень 2, Python Pro, C# Basic. <br>
+                    Навчаюсь у НУ "Львівська політехніка" (м.Львів) 2025-2029 року навчання за спеціальність F5 "Кібербезпека". <br>
+                </p>
+            </section>
+
+            <section>
+                <h2>Досвід роботи</h2>
+                <hr>
+                <ol class = "list">
+                    <li>Junior back-end developer - 2 роки</li>
+                    <li>Freelance - 1 рік</li>
+                    <li>AI model training - 3 місяці</li>
+                </ol>
+            </section>
+
+            <section class="sub">
+                <h2>Soft skills</h2>
+                <hr>
+                <ul class = "list">
+                    <li>Talking with people</li>
+                    <li>Cooperativeness</li>
+                    <li>Focused workflow</li>
+                    <li>Carefullness</li>
+                    <li>Bilinguality</li>
+                </ul>
+            </section>
+
+            <section class="sub">
+                <h2>Hard skills</h2>
+                <hr>
+                <ul class = "list">
+                    <li>Programming on different languages</li>
+                    <li>Using version control applications like Github</li>
+                    <li>Writing cryptographic algorithms</li>
+                </ul>
+            </section>
+
+            <section>
+                <hr>
+                <h2>Відгуки</h2>
+                <div id="reviews" class="reviews">
+                    <p>Завантаження коментарів...</p>
+                </div>
+            </section>
+        </main>
+            <!-- <img scr="whooper.ico" alt="whopper" width="400" height="200"> -->
+
+        
+            
+        <footer class="links">  
+            <a href="https://github.com/Dima-mas">
+                <img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" width="30" height="30">
+                <span>GitHub</span>
+            </a>
+
+            <a href="https://t.me/Dima_mas06">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/960px-Telegram_logo.svg.png?utm_source=ru.wikipedia.org&utm_campaign=index&utm_content=thumbnail" width="30" height="30">
+                <span>Telegram</span>
+            </a>
+            
+            <a href="https://youtu.be/dQw4w9WgXcQ">
+                <img src="https://png.pngtree.com/png-clipart/20241215/original/pngtree-3d-gold-dollar-coin-png-image_17881140.png" width="30" height="30">
+                <span>100000000$ FREE BOBUX VBUCKS MINECOINS NO VIRUS DOWNLOAD 100% LEGIT</span>
+            </a>
+        </footer>
+        
+        <br>
+        <h2>Інформація про систему та браузер</h2>
+        <footer>
+            <div id="systemInfo">
+                Завантаження системної інформації...
+            </div>
+        </footer>
+
+
+
+        <div id="contactFeedback" class="feedback" aria-hidden="true">
+            <div class="feedback-content" role="dialog" aria-modal="true" aria-labelledby="contactTitle">
+                <button id="closeFeedback" class="close-button" type="button" aria-label="Закрити">×</button>
+                <h2 id="contactTitle">Зворотній зв'язок</h2>
+                <form action="https://formspree.io/f/xkjjqdoy" method="POST">
+                    <label>Ім’я
+                    <input type="text" name="name" required>
+                    </label>
+                    <label>Email
+                    <input type="email" name="email" required>
+                    </label>
+                    <label>Номер телефону
+                    <input type="tel" name="phone" required>
+                    </label>
+                    <label>Повідомлення
+                    <textarea name="message" rows="4" required></textarea>
+                    </label>
+                    <button type="submit">Надіслати</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
